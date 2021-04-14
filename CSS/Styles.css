@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+COLORS
+Dark Grey:  #343434;
+Almost White: #F7FFF7;
+
+*/
+
+
+
+/*Global styles
+--------------------------------------------------------------------------------------------------*/
+*{
+	background: #F7FFF7;
+	list-style: none;
+	text-decoration: none;
+	box-shadow: border-box;
+}
+
+body{
+	font-family: Archivo Narrow, "sans-serif";
+	margin: 0;
+	padding: 0;
+	orphans: inherit;
+}
+
+h1{
+	text-align: center;
+}
+
+h1, h2, h3, p{
+	color: #343434;
+}
+
+.Alice_Bowsher{
+	font-family: Savate, "sans-serif";
+	font-size: 60px;
+}
+
+a{
+	color: crimson;
+	text-decoration: none;
+}
+
+article{
+	width: 500px;
+	margin: auto;
+}
+
+.bg_interview{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a:hover{
+	font-family: Savate, "sans-serif";
+	text-decoration: none;
+
+}
+
+
+.btn{
+	background: #343434;
+	color: #F7FFF7;
+	padding: 8px;
+	border-radius: 6px;	
+}
+
+.italics_hover:hover{
+	font-style: italic;
+}
+
+figcaption, .thank_you{
+	text-align: center;
+	color: #343434;
+	font-family: Bluu Next Bold, "serif";
+		
+}
+
+hr{
+	margin: 16px, 0;
+}
+
+/*Navigation Bar*/
+
+nav ul{
+	float: left;
+	margin-left: 50px;
+	background: #343434;
+}
+
+nav{
+	background: #343434;
+	height: 80px;
+	width: 100%;
+}
+
+.navigation_link{
+	background: #343434;
+	color: #F7FFF7;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0, px;
+	font-size: 36px;
+}
+/*Opening
+--------------------------------------------------------------------------------------------------*/
+
+.bg_opening{
+    background-image: url("../Images/Splatter_Texture_02.jpg");
+}
+
+blockquote{
+	font-family: Bluu Next Bold, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 36px;
+	text-align: center;
+	line-height: 39px;
+	color: #343434;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#apostrophe{
+	opacity: 0.75;
+}
+
+/*Interview
+--------------------------------------------------------------------------------------------------*/
+
+.Alice_Bowsher{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.interview_with{
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+
+.bg_interview{
+	
+} 
+
+.question{
+	font-family: Savate, "sans-serif";
+/*	text-decoration-line: underline;*/
+}
+
+mark:hover{
+	background: #7EF69D;
+}
+
+mark{
+	background: #97CCE3
+}
+
+.inline_font{
+	font-family: Savate, "sans-serif";
+}
+
+.inline_font:hover{
+	font-style: italic;
+}
+
+.image_margin .article_video{
+	margin: 16px 0;
+}
+
